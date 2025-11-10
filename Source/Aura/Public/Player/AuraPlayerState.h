@@ -3,16 +3,15 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Characters/AuraCharacterBase.h"
-#include "AuraCharacter.generated.h"
+#include "GameFramework/PlayerState.h"
+#include "AuraPlayerState.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class AURA_API AAuraCharacter : public AAuraCharacterBase
+class AURA_API AAuraPlayerState : public APlayerState
 {
 	GENERATED_BODY()
-public:
-	AAuraCharacter();
+	
 };
